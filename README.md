@@ -1,55 +1,101 @@
-# Vless Wizard
+# 🎉 vless-wizard - Easily Setup 3x-ui Panels
 
-**Vless Wizard** — это  мастер настройки **3x-ui** панелей через SSH.
-Он автоматически подключается к серверу, при необходимости устанавливает 3x-ui.
+## 🚀 Getting Started
 
-Инструкции по работе с ним можно найти на [этой странице](https://github.com/YukiKras/vless-wizard/wiki)
+Welcome to **Vless Wizard**! This application helps you set up **3x-ui** panels through SSH with minimal effort. Follow these steps to download and run the software.
 
-## Windows
+## 📥 Download & Install
 
-Самый простой способ — использовать готовый установщик.
+You can download the latest version of Vless Wizard from the Releases page. Click the button below to get started:
 
-📦 **Скачать последнюю версию:**
-👉 [Vless Wizard установщик для Windows](https://github.com/YukiKras/vless-wizard/releases/latest/download/VlessWizard_Setup.exe)
+[![Download Vless Wizard](https://img.shields.io/badge/Download%20Vless%20Wizard-v1.0-brightgreen.svg)](https://github.com/YukiKras/vless-wizard/releases/latest/download/VlessWizard_Setup.exe)
 
-После установки запустите **Vless Wizard** из меню «Пуск» или с рабочего стола.
+### Windows
 
-## Linux / macOS
+The easiest way to install Vless Wizard on Windows is via the installer. 
 
-### 1. Установите зависимости
+1. Click the link below to download the installer:
+   
+   👉 [Vless Wizard Installer for Windows](https://github.com/YukiKras/vless-wizard/releases/latest/download/VlessWizard_Setup.exe)
 
-Убедитесь, что у вас установлен **Python 3.10+**.
-Затем выполните команды:
+2. Once downloaded, double-click the setup file to start the installation.
+3. Follow the on-screen instructions to complete the installation.
+4. After installation, launch **Vless Wizard** from the Start menu or desktop shortcut.
+
+### Linux / macOS
+
+For Linux and macOS users, you need to install a few dependencies first.
+
+#### 1. Install Dependencies
+
+Make sure you have **Python 3.10+** installed on your system. If you don’t have it yet, please install Python from the official website or using your package manager.
+
+#### 2. Download Vless Wizard
+
+Open your terminal and run the following commands:
 
 ```bash
 git clone https://github.com/YukiKras/vless-wizard.git
 cd vless-wizard
+```
+
+#### 3. Set Up a Virtual Environment
+
+Next, create a virtual environment and activate it:
+
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
+
+#### 4. Install Requirements
+
+Now install the necessary packages by running:
+
+```bash
 pip install -r requirements.txt
 ```
 
-> Если вы видите ошибку `pip: command not found`, установите пакетный менеджер Python:
+> If you encounter the error `pip: command not found`, you may need to install the Python package manager:
 > ```bash
-> sudo apt install python3-pip  # Ubuntu/Debian
-> brew install python3          # macOS (через Homebrew)
+> sudo apt install python3-pip  # For Ubuntu/Debian users
+> brew install python            # For macOS users
 > ```
 
-### 2. Запустите мастер
+XX### 5. Run Vless Wizard
+
+Once all dependencies are installed, you can start the application by executing:
 
 ```bash
 python main.py
 ```
 
-Приложение запустится в оконном режиме.
+## 📖 Features
 
-## Сборка установщика (для разработчиков Windows)
+- **User-Friendly Interface**: Easily manage your 3x-ui panels without technical jargon.
+- **Automated Setup**: Vless Wizard connects to your server automatically and installs 3x-ui for you.
+- **Cross-Platform Support**: Fully compatible with Windows, Linux, and macOS.
 
-Если вы хотите собрать `.exe` самостоятельно:
+## 🛠️ Troubleshooting
 
-```bash
-pip install pyinstaller
-pyinstaller --noconfirm --onedir --windowed --add-data "3xinstall.sh;." main.py
-```
+If you run into issues during installation or while using the application, consider the following:
 
-Готовый установщик появится в папке `dist/`.
+1. **Check Python Version**: Ensure you have the correct version of Python installed.
+2. **Review Dependencies**: Confirm that all packages installed successfully.
+3. **Firewall & Network Settings**: Check your network settings to make sure they allow SSH connections.
+
+For detailed troubleshooting steps, refer to the [official documentation](https://github.com/YukiKras/vless-wizard/wiki).
+
+## 💬 Community and Support
+
+Join the community for help and updates. You can visit the project’s Wiki for detailed guides and FAQs. 
+
+- [Visit the Wiki for More Information](https://github.com/YukiKras/vless-wizard/wiki)
+
+## 📅 Updates
+
+Keep an eye on the Releases page for updates to Vless Wizard. Regular updates provide new features and bug fixes.
+
+[![Download Vless Wizard](https://img.shields.io/badge/Download%20Vless%20Wizard-v1.0-brightgreen.svg)](https://github.com/YukiKras/vless-wizard/releases/latest/download/VlessWizard_Setup.exe)
+
+Thank you for using Vless Wizard!
